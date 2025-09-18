@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About — Wilborn Cheruiyot</title>
+  <link rel="stylesheet" href="./static/css/stylesabout.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="logo" href="index.html">Wilborn</a>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="about-section">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-image">
+            <img src="static/images/me.jpg" alt="Wilborn Cheruiyot">
+          </div>
+          <div class="about-text">
+            <h1>About Me</h1>
+            <p>Hello — I'm <strong>Wilborn Cheruiyot</strong>, a Full-Stack Developer passionate about building efficient, scalable, and SEO-friendly web applications. I work with JavaScript, Python, and several modern libraries and frameworks to deliver polished digital experiences.</p>
+
+            <h3>What I Do</h3>
+            <ul>
+              <li>Front-end development (responsive UI, accessibility, SEO)</li>
+              <li>Back-end development with Flask / Python</li>
+              <li>Database design and integration (SQLite, Postgres)</li>
+              <li>Deployment and DevOps basics (Docker, CI/CD)</li>
+            </ul>
+
+            <h3>Skills</h3>
+            <div class="skills-list">
+              <div class="skill">HTML — 90%</div>
+              <div class="skill">CSS — 80%</div>
+              <div class="skill">Python — 70%</div>
+              <div class="skill">JavaScript — 60%</div>
+            </div>
+
+            <a href="projects.html" class="btn">See my projects</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year2"></span> Wilborn Cheruiyot. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>document.getElementById('year2').textContent = new Date().getFullYear();</script>
+</body>
+</html>

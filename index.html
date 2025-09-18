@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Wilborn Cheruiyot — Full-Stack Developer</title>
+   
+  <link rel="stylesheet" href="./static/css/styles.css" />
+</head>
+<body>
+ 
+  <header class="site-header">
+    <div class="container">
+      <a class="logo" href="index.html">Wilborn</a>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-image"> 
+            <img src="static/images/me.jpg" alt="Wilborn Cheruiyot">
+          </div>
+
+          <div class="hero-text">
+            <h2>Hi, I'm <span class="highlight">Wilborn Cheruiyot</span></h2>
+            <h1>Full-Stack Developer</h1>
+            <p>I specialize in building exceptional digital experiences with JavaScript, Python, and modern web technologies. Focused on creating efficient, scalable, and SEO-friendly solutions.</p>
+            <a href="projects.html" class="btn">View My Work</a>
+          </div>
+
+       
+          <div class="skills-progress">
+            <h3>My Skills</h3>
+
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>HTML</span>
+                <span>90%</span>
+              </div>
+              <div class="progress-bar">
+                <div class="progress" style="width: 90%;"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>CSS</span>
+                <span>80%</span>
+              </div>
+              <div class="progress-bar">
+                <div class="progress" style="width: 80%;"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>Python</span>
+                <span>70%</span>
+              </div>
+              <div class="progress-bar">
+                <div class="progress" style="width: 70%;"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>JavaScript</span>
+                <span>60%</span>
+              </div>
+              <div class="progress-bar">
+                <div class="progress" style="width: 60%;"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Stats Section -->
+        <div class="stats-section">
+          <div class="stats-grid">
+            <div class="stat-card">
+              <div class="stat-number">30+</div>
+              <div class="stat-title">Finished Projects</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-number">2+</div>
+              <div class="stat-title">Years of Experience</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-number">10+</div>
+              <div class="stat-title">Happy Clients</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer   -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Wilborn Cheruiyot. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+     
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
