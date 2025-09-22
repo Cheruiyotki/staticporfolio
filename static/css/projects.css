@@ -15,7 +15,7 @@
 /* Base */
 body {
   margin: 0;
-  background: linear-gradient(180deg, var(--bg), #07172b 100%);
+  background: linear-gradient(180deg, var(--bg), #194477 100%);
   color: var(--text);
   line-height: 1.6;
 }
